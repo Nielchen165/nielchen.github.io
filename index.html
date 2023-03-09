@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Detravel</title>
+    <link
+      rel="icon"
+      href="./src/images/Icon.png"
+      type="image/icon type"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="navigation">
+        <div class="navigation-box">
+          <div class="navigation-menu">
+            <a href="index.html">
+              <img
+                src="./src/images/logo.png"
+                height="45px"
+                alt="MDB Logo"
+                loading="lazy"
+                style="margin-top: -1px"
+              />
+            </a>
+          </div>
+          <div class="navigation-menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="">Our Package</a></li>
+              <li><a href="">Call us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <div class="cathword"><h1>Your Trusted Travel Agent's</h1></div>
+        <div class="jingle"><p>Your happiness is our hapiness</p></div>
+      </div>
+    </header>
+
+    <main>
+      <container class="up-box">
+        <div class="box">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img
+                src="./src/images/travel1.jpg"
+                style="width: 100%; border-radius: 10px"
+              />
+            </div>
+            <div class="mySlides fade">
+              <img
+                src="./src/images/travel2.jpg"
+                style="width: 100%; border-radius: 10px"
+              />
+            </div>
+            <div class="mySlides fade">
+              <img
+                src="./src/images/travel3.jpg"
+                style="width: 100%; border-radius: 10px"
+              />
+            </div>
+          </div>
+
+          <div style="text-align: center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+
+          <div class="comment-box" style="text-align: start">
+            <div class="comment">
+              <p>
+                "Liburan jadi murah, berkenang, cepat, dan mantab dengan
+                Detravel"
+              </p>
+            </div>
+            <div class="comment">
+              <p>
+                "Terbang ke tempat tujuan dan melampaui mimpi dengan Detravel"
+              </p>
+            </div>
+            <div class="comment">
+              <p>
+                "Apa itu mahal? Dengan Detravel bisa menyesuaikan badget kita"
+              </p>
+            </div>
+          </div>
+          <br />
+
+          <div class="customer-box">
+            <div class="customer">
+              <img
+                class="img-customer"
+                src="./src/images/customer1.jpeg"
+                alt="img-customer"
+              />
+              <div class="customer-detail">
+                <h3>Abdul Mamad</h3>
+                <p>Bapak Rumah Tangga, 27</p>
+              </div>
+            </div>
+            <div class="customer">
+              <img
+                class="img-customer"
+                src="./src/images/customer2.jpg"
+                alt="img-customer"
+              />
+              <div class="customer-detail">
+                <h3>Persica Monica</h3>
+                <p>Influencer TikTok, 26</p>
+              </div>
+            </div>
+            <div class="customer">
+              <img
+                class="img-customer"
+                src="./src/images/customer3.jpeg"
+                alt="img-customer"
+              />
+              <div class="customer-detail">
+                <h3>Sieska Howl</h3>
+                <p>Dokter Bedah Spesialis, 29</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="form">
+            <h2>Contact Us</h2>
+            <br />
+            <p>
+              Sales akan menghubungi anda 1x24 jam setelah data kami terima.
+            </p>
+            <br />
+            <form novalidate>
+              <p>
+                <label for="name">
+                  <h3>Your name</h3>
+                  <input
+                    type="text"
+                    id="names"
+                    name="names"
+                    required
+                    placeholder="First name & last name.."
+                  />
+                </label>
+                <br />
+
+                <label for="mail">
+                  <h3>Email Address:</h3>
+                  <input
+                    type="email"
+                    id="mail"
+                    name="mail"
+                    required
+                    minlength="8"
+                    placeholder="example@email.com"
+                  />
+                  <span class="error" aria-live="polite"></span>
+                </label>
+                <br />
+
+                <label for="interest">
+                  <h3>What are you interested in?</h3>
+                  <select id="interest" name="interest">
+                    <option value="country">Select option</option>
+                    <option value="country">Country</option>
+                    <option value="nature">Nature</option>
+                    <option value="animal">Animals</option>
+                  </select>
+                </label>
+                <br />
+              </p>
+              <button>Submit</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="features">
+            <br />
+            <h3>
+              Detravel tourism package options are extensive since the country
+              is big and full of monuments and things to do. We've highlighted
+              some which we feel are a must visit when you travel to
+            </h3>
+            <br />
+            <div class="feature">
+              <h3 class="numbering">1</h3>
+              <p class="feature-desc">
+                Explore destination most impressive sights with our hand-crafted
+                short stays tour.
+              </p>
+            </div>
+            <br />
+            <div class="feature">
+              <h3 class="numbering">2</h3>
+              <p class="feature-desc">
+                These tours specially tailored to give you the opportunity to
+                enrich your spiritual experience.
+              </p>
+            </div>
+            <br />
+            <div class="feature">
+              <h3 class="numbering">3</h3>
+              <p class="feature-desc">
+                While you are on Port for a few hours or overnight, We'll offer
+                you a variety of our Shore Excursions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </container>
+
+      <container class="mid-box">
+        <div class="menu-title">
+          <h1>OUR PACKAGE</h1>
+        </div>
+
+        <div class="menu-list">
+          <div class="menu-item">
+            <div class="menu-icon">
+              <i class="ri-plane-line"></i>
+            </div>
+            <div class="menu-detail">
+              <h2>Singapura</h2>
+              <p>
+                Travel dan Wisata di Singapura. Kunjungi destinasi wisata dan
+                kuliner menarik.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-icon">
+              <i class="ri-plane-line"></i>
+            </div>
+            <div class="menu-detail">
+              <h2>Jepang</h2>
+              <p>
+                Travel dan Wisata di Jepang. Kunjungi destinasi wisata dan
+                kuliner menarik.
+              </p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-icon">
+              <i class="ri-plane-line"></i>
+            </div>
+            <div class="menu-detail">
+              <h2>Egypt</h2>
+              <p>
+                Travel dan Wisata di Egypt. Kunjungi destinasi wisata dan
+                kuliner menarik.
+              </p>
+            </div>
+          </div>
+        </div>
+      </container>
+
+      <container class="bottom-box">
+        <h1>The Exotic Land of History and Mystery</h1>
+        <br />
+        <p>
+          Egypt tourism package options are extensive since the country is big
+          and full of monuments and things to do.Visiting the leading Egypt
+          tourism attractions will delight those who enjoy ancient
+          archaeological sites, history, stunning nature, and friendly smiles.
+          Your Egypt holidays will be unforgettable because of the country’s
+          unique architecture, exotic destinations, and generous people. Spend
+          some days marveling at the fascinating ancient civilizations, grand
+          temples and great tombs of Egypt’s iconic cities .
+        </p>
+        <br />
+        <div class="button-contact">
+          <button style="width: 30vh; background-color: #717171">
+            CALL TO ACTION
+          </button>
+        </div>
+        <br />
+        <br />
+        <br />
+      </container>
+    </main>
+
+    <footer>
+      <br />
+      <img
+        src="./src/images/logo.png"
+        height="45px"
+        alt="MDB Logo"
+        loading="lazy"
+        style="margin-top: -1px"
+      />
+      <br />
+      <br />
+      <div class="end-menu">
+        <a href=""><p>Term of Service</p></a> 
+        <a href=""><p>Privacy Policy</p></a>
+      </div>
+      <p>&copy; 2023 Detravel</p>
+      <br />
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

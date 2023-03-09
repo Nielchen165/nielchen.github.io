@@ -1,0 +1,31 @@
+@media screen and (max-width: 840px) {
+    .box:nth-child(1) {
+        width: 100%;
+      }
+      
+      .box:nth-child(2) {
+        width: 100%;
+      }
+      
+      .box:nth-child(3) {
+        width: 100%;
+      }
+
+      .customer {
+        margin-bottom: 20px;
+      }
+}
+
+@media screen and (max-width: 640px) {
+    .cathword h1 {
+        font-size: 30px;
+    }
+
+    .menu-item {
+        width: 100%;
+    }
+
+    .bottom-box h1 {
+        font-size: 30px;
+    }
+}
